@@ -32,10 +32,16 @@ Execute o comando abaixo para instalar o Appium:
 npm install -g appium
 ```
 
-Após o término, inicie o servidor do Appium pelo seguinte comando:
+Após o término, vamos iniciar o servidor do Appium:
+No Windows abra o terminal como Admin e digite o comamdo abaixo: 
 ```bash
 appium
 ```
+No linux é indicado a usar o Sudo para dar as permissões.
+```bash
+sudo appium
+```
+
 
 > Para atualizar o Appium, você precisará executar `npm install -g appium` novamente.
 
