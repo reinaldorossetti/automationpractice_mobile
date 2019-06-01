@@ -1,4 +1,4 @@
-## Iniciando a Automação de Testes com Appium.
+## Iniciando a Automação de Testes com Appium. O Appium foi desenvolvido pelo mesmo grupo do Selenium, vou citar alguém em especial o Kazuaki MATSUO, apelido de KazuCocoa, como eu acompanho direto a comunidade ele é o cara que dar manutenção no Appium Client em Ruby todas as novidades ele é o cara, atualmente implementou várias novidades uma delas é Opencv dentro do Appium.
 
 #### Pre-conditions (Precisamos primeiro instalar as Ferramentas/Softwares):
 
@@ -22,9 +22,9 @@ npm install -g appium-doctor  # instalar o appium-doctor
 Uma vez que o node.js, npm e o appium-doctor estão instalados, você pode usar o comando abaixo para verificar se todas as dependências do appium são atendidas:
 
 ```bash
-appium-doctor             # verificar todas as dependencias necessarias para usar o appium
-appium-doctor --android   # verificar as dependencias somente para android
-appium-doctor --ios       # verificar as dependencias somente para ios
+appium-doctor             # verificar todas as dependencias necessárias para usar o appium
+appium-doctor --android   # verificar as dependências somente para android
+appium-doctor --ios       # verificar as dependências somente para ios
 ```
 
 ## Instalando o Appium
@@ -70,7 +70,7 @@ sudo appium
 ### 1. Download Project
 ```shell
 git clone https://github.com/reinaldorossetti/automationpractice_mobile.git
-cd automationpractice
+cd automationpractice_mobile
 ```
 
 ### 2. Installing gems
@@ -79,43 +79,19 @@ To install All gems ():
 bundle install
 ```
 
-### 4. Test Data Mass:
-### data.csv
-The mass of data is not in the feature for good practice but in a cvs file, need the data.csv inside the path "features / data / data.csv".
-<br>**Content of data.csv:**  
-your_email_address,password,fist_name,last_name,date_of_birth_XX/XX/XXXX,company_name,address,Virginia Beach,city_name,zip_code,United States,mobile_number_19911110000,home
-
-###
-
-### 5. Run Tests: 
-### Run tests in DEV with Chrome
+### 3. Run Tests: 
 Type this in the tests folder:
 ```shell
-bundle exec cucumber  -p ci -p html -p headless -p dev
+bundle exec cucumber
 ```
-
-### Run tests in DEV with headless
-Type this in the tests folder:
-```shell
-bundle exec cucumber  -p ci -p html -p headless -p dev
-```
-
-### Run tests in HMG with Chrome
-Type this in the tests folder:
-```shell
-bundle exec cucumber -p pretty -p html -p no_headless -p hmg
-```
-
-### Run tests in HMG with headless
-Type this in the tests folder:
-```shell
-bundle exec cucumber -p ci -p html -p headless -p hmg
-```
-
 ### Run with tags
 Type this in the tests folder:
 ```shell
 bundle exec cucumber --tags @run
+```
+Or
+```shell
+bundle exec cucumber -t @run
 ```
 
 ### Basic Structure Project:
