@@ -7,7 +7,6 @@ end
 def call_driver
   # herda os métodos para o cucumber.
   Appium.promote_appium_methods Object
-  update_settings(waitForIdleTimeout: 500)
   update_settings(ignoreUnimportantViews: true)
   update_settings({fixImageFindScreenshotDims: true, fixImageTemplateSize: true,
                    autoUpdateImageElementPosition: true})
