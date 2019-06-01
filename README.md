@@ -26,6 +26,21 @@ appium-doctor --ios       # verificar as dependencias somente para ios
 ## Instalando o Appium
 
 ### Appium Server
+O Appium posso dizer que é dividido em duas partes Client e Server. O Client que é a Biblioteca que vai desenvolver os comandos, a mesma é dividido em duas (appium_lib, appium_lib_core), appium_lib ela depende do appium_lib_core, e a appium_lib_core depede do selenium-webdriver. Podemos afirmar que existe várias dependencias uma vez instalada da forma errada vai dar problema no Appium.
+
+Por isso colocamos as versões no gemfile para não ter erro:
+```ruby
+source 'http://rubygems.org'
+
+gem 'appium_lib', '~>10.3.1'
+gem 'appium_lib_core', '~> 3.1.2'
+gem 'selenium-webdriver', '~>3.142.3'
+gem 'cucumber', '~>3.1.2'
+gem 'rspec', '3.8.0'
+gem 'rspec-retry'
+gem 'ffi', '~> 1.11', '>= 1.11.1'
+gem 'pry', '~> 0.12.2'
+```
 
 Execute o comando abaixo para instalar o Appium:
 ```bash
