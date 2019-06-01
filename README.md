@@ -9,9 +9,9 @@
     Install Git (https://git-scm.com/downloads)
     Install nodejs (https://nodejs.org/en/download/)
 
-Ruby - Linguagem de Programação que vamos usar.
-Git - Nosso projeto será versionado, ou seja o código fonte vai ser armazendo em versões (distributed version control system).
-Nodejs - O Appium Server é puro JavaScript e algumas partes em Java, alguns coisas estão em .jar como alguns drivers.
+Ruby - Linguagem de Programação que vamos usar.  
+Git - Nosso projeto será versionado, ou seja o código fonte vai ser armazendo em versões (distributed version control system).  
+Nodejs - O Appium Server é puro JavaScript e algumas partes em Java, alguns coisas estão em .jar como alguns drivers.  
 
 
 ## Appium-doctor
