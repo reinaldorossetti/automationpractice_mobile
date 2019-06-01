@@ -1,6 +1,6 @@
-## Getting Started Appium, Cucumber, Rspec, Selenium, Rake ##
+## Iniciando a Automação de Testes com Appium.
 
-#### Pre-conditions:
+#### Pre-conditions (Precisamos primeiro instalar as Ferramentas/Softwares):
 
     Ruby 2.4.4 or 2.5.5 (Agora parece estar melhor 2.5 na sub-release 5)
     -> Windows (https://rubyinstaller.org/downloads/)
@@ -8,6 +8,10 @@
     -> MAC (brew install ruby)
     Install Git (https://git-scm.com/downloads)
     Install nodejs (https://nodejs.org/en/download/)
+
+Ruby - Linguagem de Programação que vamos usar.
+Git - Nosso projeto será versionado, ou seja o código fonte vai ser armazendo em versões (distributed version control system).
+Nodejs - O Appium Server é puro JavaScript e algumas partes em Java, alguns coisas estão em .jar como alguns drivers.
 
 
 ## Appium-doctor
@@ -47,20 +51,22 @@ Execute o comando abaixo para instalar o Appium:
 npm install -g appium
 ```
 
-Após o término, vamos iniciar o servidor do Appium:
+Após o término, vamos iniciar o servidor do Appium. No linux é indicado a usar o Sudo para dar as permissões.
+
 No Windows abra o terminal como Admin e digite o comamdo abaixo: 
 ```bash
 appium
 ```
-No linux é indicado a usar o Sudo para dar as permissões.
+
+Linux:
 ```bash
 sudo appium
 ```
 
+> Para atualizar o Appium, você precisará executar `npm update -g appium`.
 
-> Para atualizar o Appium, você precisará executar `npm install -g appium` novamente.
+## Agora vamos ao Projeto de Fato:
 
-## Steps by Steps:
 ### 1. Download Project
 ```shell
 git clone https://github.com/reinaldorossetti/automationpractice_mobile.git
