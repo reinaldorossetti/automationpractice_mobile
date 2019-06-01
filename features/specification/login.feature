@@ -6,4 +6,5 @@ Funcionalidade: Login
 Cenario: LOGI_001
 Dado que entre no aplicativo em minha conta.
 E selecione a opcao entrar.
-Então valido se estar na tela de login.
+Quando valido se estar na tela de login.
+  Entao selecionar o opção "Entrar com o Google".

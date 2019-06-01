@@ -5,8 +5,7 @@ Before do |scenario|
 end
 
 def call_driver
-  # Inicia o driver e herda os métodos para o cucumber.
-  $driver.start_driver
+  # herda os métodos para o cucumber.
   Appium.promote_appium_methods Object
   update_settings(waitForIdleTimeout: 500)
   update_settings(ignoreUnimportantViews: true)
