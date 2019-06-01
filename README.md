@@ -12,13 +12,16 @@
 
 ## Appium-doctor
 Verifica se todas as dependências do Appium são atendidas e se todas as dependências estão configuradas corretamente. Para instalar o appium-doctor basta colar no seu terminal:
-
+```bash
 npm install -g appium-doctor  # instalar o appium-doctor
+```
 Uma vez que o node.js, npm e o appium-doctor estão instalados, você pode usar o comando abaixo para verificar se todas as dependências do appium são atendidas:
 
+```bash
 appium-doctor             # verificar todas as dependencias necessarias para usar o appium
 appium-doctor --android   # verificar as dependencias somente para android
 appium-doctor --ios       # verificar as dependencias somente para ios
+```
 
 ## Instalando o Appium
 
