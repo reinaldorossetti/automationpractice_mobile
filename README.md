@@ -1,4 +1,4 @@
-## Iniciando a Automação de Testes com Appium. O Appium foi desenvolvido pelo mesmo grupo do Selenium, vou citar alguém em especial o Kazuaki MATSUO, apelido de KazuCocoa, como eu acompanho direto a comunidade ele é o cara que dar manutenção no Appium Client em Ruby todas as novidades ele é o cara, atualmente implementou várias novidades uma delas é Opencv dentro do Appium.
+### Iniciando a Automação de Testes com Appium. O Appium foi desenvolvido pelo mesmo grupo do Selenium, vou citar alguém em especial o Kazuaki MATSUO, apelido de KazuCocoa, como eu acompanho direto a comunidade ele é o cara que dar manutenção no Appium Client em Ruby todas as novidades ele é o cara, atualmente implementou várias novidades uma delas é Opencv dentro do Appium.
 
 #### Pre-conditions (Precisamos primeiro instalar as Ferramentas/Softwares):
 
@@ -131,7 +131,10 @@ In computing, data logging is an expression used to describe the process of reco
 - Generates Cucumber HTML Report with logs.  
 - Get the browser and Selenium logs.  
 
-### References:  
+### References:
+https://github.com/appium/ruby_lib  
+https://github.com/appium/ruby_lib_core/  
+https://rubygems.org/gems/selenium-webdriver  
 https://docs.cucumber.io/gherkin/reference/  
 https://github.com/ruby/rake
 
