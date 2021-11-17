@@ -8,3 +8,4 @@ gem 'rspec', '3.8.0'
 gem 'rspec-retry'
 gem 'ffi', '~> 1.11', '>= 1.11.1'
 gem 'pry', '~> 0.12.2'
+gem "nokogiri", ">= 1.12.5"
